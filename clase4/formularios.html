@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica de HTML sobre tablas y formularios</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Tablas</a></li>
+                <li><a href="./formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <h1>Tablas y Formularios</h1>
+    </header>
+
+    <main>
+        
+        <section>
+            <h2>Estructura del formulario</h2>
+            <article>
+                <h3>Elementos del formulario</h3>
+
+                <ul>
+                    <!-- Etiqueta principal -->
+                    <li>form</li>
+                    <!-- Agrupamos dos elementos -->
+                    <li>div</li>
+                    <!-- Etiqueta de texto -->
+                    <li>label</li>
+                    <!-- Etiqueta de texto (ingresar datos) -->
+                    <li>input</li>
+                    <!-- Boton para enviar formulario -->
+                    <li>input tipo boton</li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>Ejemplo</h2>
+                <!-- action es donde enviaremos los datos del formulario, es la proxima pag que se abrira luego de pulsar el boton de enviar datos-->
+                <!-- Por defecto el metodo del formulario es de tipo get(manda la informacion x la url), otro metodo es post -->
+                <!-- query string ?usuario=hola&email=sarcofelipe456%40gmail.com&password=eqw123 -->
+                <!-- atributo for sirve para que al presionar el label se ponga el focus en el input, debe ser igual al id del input -->
+                
+
+                <form action="./registro.html" method="get">
+                    <div>
+                        <!-- atributo required sirve para poner el campo como obligatorio -->
+                        <label for="usuario">usuario</label>
+                        <input type="text" name="usuario" id="usuario" required>  
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div>
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+
+                    <div>
+                        <label for="telefono">Telefono</label>
+                        <input type="tel" name="telefono" id="telefono" required>
+                    </div>
+
+                    <div>
+                        <h3>Ejemplos de tipos de inputs</h3>
+
+                        <div>
+                            <input type="button" value="Miboton">
+                        </div>
+                        <hr>   <!-- sirve para hacer un salto de linea-->
+                        <!-- Tipos de inputs -->
+                        <div>
+                            
+                            <!-- Seleccion multiple es con checkbox -->
+                            <h3>Selecciona tus preferencias</h3>
+                            <label for="check">Deporte</label>
+                            <input type="checkbox" name="check" value="deporte">
+
+                            <label for="check">Viajar</label>
+                            <input type="checkbox" name="" value="viajar">
+
+                            <label for="check">Cantar</label>
+                            <input type="checkbox" name="" value="cantar">
+
+                            <label for="check">Visitar nuevos lugares</label>
+                            <input type="checkbox" name="" value="visitar">
+                        </div> 
+
+                        <div>
+                            <!-- Seleccion simple es con radio y todos los inputs 
+                            deben tener el mismo name -->
+
+                            <h3>cual es tu favorito?</h3>
+                            <label for="favorito">Messi</label>
+                            <input type="radio" name="favorito" value="messi">
+                            <label for="favorito">Dibu</label>
+                            <input type="radio" name="favorito" value="dibu">
+                            <label for="favorito">Diego</label>
+                            <input type="radio" name="favorito" value="diego">
+
+
+                        </div>
+                       
+                        
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Registrarse">
+                    </div>
+
+
+                </form>
+
+            </article>
+        </section>
+
+    </main>
+
+    <footer></footer>
+    
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 300px;
+    align-items: center;
+    background-image: url(https://assets2.ignimgs.com/2014/02/04/legoblogjpg-5a8e56_160w.jpg?width=1280);
+}
+
+header input{
+    width: 200px;
+    height: 30px;
+    border: 4px;
+    margin-right: 20px;
+}
+
+header img{
+    width: 130px;
+    border: 0px;
+    margin-left: 20px;
+}
+
+.menu{
+    list-style-type: none;  
+    display: flex;
+}
+
+.menu li{
+    padding: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+}
+
+main{
+    background-color: blanchedalmond;
+}
+
+img{
+    width: 111px;
+    height: 131px;
+    border: 2px solid black;
+}
+
+footer{
+    background-color: black;
+    height: 330px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img{
+    width: 120px;
+    padding: 0px;
+    border: 0px;
+}
+
+footer ul{
+    justify-content: center;
+}
+
+footer {
+    color: white;
+}
+
+h2{
+    margin: 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.titulosseccion{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+section{
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+}
+
+#menufooter li a{
+    color: white;
+}
+

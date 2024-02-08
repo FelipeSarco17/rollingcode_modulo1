@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+
+/* Medidas Absolutas */
+/* No dependen de nada (pixeles, centimetros, metros, etc) */
+#absoluta{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    
+}
+
+/* Medidas Relativas */
+
+#relativa{
+
+    width: 2rem;
+    font-size: 2rem; /*Tiene de referencia el elemento root del padre*/
+
+}
+
+#relativa2{
+    width: 4em; /*Usa el tamaño de letra del padre*/
+}
+
+#relativa3{
+    background-color: aliceblue;
+    color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+#min{
+    min-height: 500px;
+    background-color: pink;
+}
+
+main{
+    border-radius: 30px;
+    background-color: blue;
+    padding: 15px;
+    height: content;
+}

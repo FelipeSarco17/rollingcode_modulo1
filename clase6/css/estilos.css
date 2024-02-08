@@ -1,0 +1,63 @@
+/* Estructura Pseudoclases
+
+selector:pseudoclase{
+
+}
+
+*/
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    background-color: yellow;
+    color: bla;
+}
+
+a:visited{
+    background-color: red;
+    color: white;
+}
+a:hover{
+
+    background-color: black;
+    color: white;
+
+}
+
+a:active{
+
+    background-color: blue;
+    color: black;
+
+}
+
+h1{
+    background-color: blueviolet;
+    color: white;
+    width: 50%;
+    height: 70px;
+    margin: 10px 5px 0px 20px; /*distancia entre elementos*/
+    padding: 10px 18px;
+    border: 10px solid black; /* borde de la caja: tamaño tipo color*/
+
+}
+
+
+article{
+
+    min-height: 200px;
+    background-color: black;
+
+}
+
+#atributos{
+    background-color: blueviolet;
+}
+
+
+/* Pseudoelemento */
+
+
+

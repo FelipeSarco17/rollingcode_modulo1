@@ -1,0 +1,70 @@
+/* Selector de etiqueta */
+/* etiqueta{propiedad:valor;} */
+
+
+
+/*Selector por clase*/
+body{
+    background-color: darkslategray;
+    color: white;
+}
+
+h1{
+
+    background-color: black; /*cambia el color de fondo*/
+    color: white; /*Cambia el color del texto*/
+    text-align: center; /*Cambiar la posicion del texto*/
+    /* border:2px solid yellow;  3 valores: grueso, tipo, color */
+    border-bottom: 2px solid yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*cambiar fuente*/
+    font-size: 50px; /*Cambiar tamaño de la fuente*/
+    width: 75%;
+}
+
+header{
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+
+}
+
+ul{
+
+    list-style-type: none; /*quita los items*/
+
+}
+
+img{
+    width: 400px;
+}
+
+/*Selector por id*/
+/* #id{propiedad:valor;}*/
+
+#filetpollo{
+ 
+    border-radius: 300px; /*redondea las puntas de la imagen*/
+
+}
+
+#medallonpollo{
+
+    opacity: 0.5; /*cambia opacidad*/
+
+}
+
+article{
+    width: 50%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+

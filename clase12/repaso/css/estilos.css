@@ -1,0 +1,16 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+header{
+    background-image: url(../img/banner.jpeg);
+}
+
+.men-fixed{
+    position: fixed;
+}
+
+.imagen-articulo{
+    box-shadow: 5px 5px 10px;
+}
